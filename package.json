@@ -16,7 +16,8 @@
   },
   "scripts": {
     "start": "cds-serve",
-    "watch-risk-management-fiori-v4": "cds watch --open risk-management-fiori-v4/webapp/index.html?sap-ui-xx-viewCache=false"
+    "watch-risk-management-fiori-v4": "cds watch --open risk-management-fiori-v4/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-risk-management-freestyle-v4": "cds watch --open risk-management-freestyle-v4/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "cds": {
     "requires": {
@@ -27,6 +28,7 @@
     }
   },
   "sapux": [
-    "app/risk-management-fiori-v4"
+    "app/risk-management-fiori-v4",
+    "app/risk-management-freestyle-v4"
   ]
 }
